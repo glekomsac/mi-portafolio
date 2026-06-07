@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Guillermo Castro</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+
+    <!-- Encabezado principal -->
+    <header class="header">
+      <nav class="nav">
+        <span class="nav-logo">GC</span>
+        <ul class="nav-links">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- Sección hero -->
+      <section class="hero">
+        <div class="hero-contenido">
+          <h1>Hola, soy <span class="resaltado">Guillermo Castro</span></h1>
+          <p>Estudiante de Desarrollo Web Full Stack apasionado por crear experiencias digitales.</p>
+          <a href="#contacto" class="btn">Contáctame</a>
+        </div>
+      </section>
+
+      <!-- Sección sobre mí -->
+      <section id="sobre-mi" class="seccion">
+        <h2>Sobre mí</h2>
+        <p>Soy estudiante de desarrollo web, actualmente aprendiendo HTML, CSS, JavaScript y React. Me apasiona la tecnología y el diseño web.</p>
+        <table class="tabla-info">
+          <thead>
+            <tr>
+              <th>Dato</th>
+              <th>Información</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nombre</td>
+              <td>Guillermo Castro</td>
+            </tr>
+            <tr>
+              <td>Ubicación</td>
+              <td>Lima, Perú</td>
+            </tr>
+            <tr>
+              <td>Estudios</td>
+              <td>Desarrollo Web Full Stack</td>
+            </tr>
+            <tr>
+              <td>Disponibilidad</td>
+              <td>Prácticas / Freelance</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Sección habilidades -->
+      <section id="habilidades" class="seccion seccion-gris">
+        <h2>Habilidades</h2>
+        <div class="grid-habilidades">
+          <div class="tarjeta">
+            <h3>HTML</h3>
+            <p>Estructura semántica y accesible de páginas web.</p>
+          </div>
+          <div class="tarjeta">
+            <h3>CSS</h3>
+            <p>Estilos, Flexbox, Grid y diseño responsive.</p>
+          </div>
+          <div class="tarjeta">
+            <h3>JavaScript</h3>
+            <p>Lógica, DOM y consumo de APIs.</p>
+          </div>
+          <div class="tarjeta">
+            <h3>React</h3>
+            <p>Componentes, hooks y manejo de estado.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección proyectos -->
+      <section id="proyectos" class="seccion">
+        <h2>Proyectos</h2>
+        <div class="grid-proyectos">
+          <article class="proyecto-card">
+            <h3>Proyecto 1</h3>
+            <p>Página web estática desarrollada con HTML y CSS aplicando diseño responsive.</p>
+            <a href="#" class="btn-secundario">Ver proyecto</a>
+          </article>
+          <article class="proyecto-card">
+            <h3>Proyecto 2</h3>
+            <p>Aplicación web con JavaScript para consumo de una API REST pública.</p>
+            <a href="#" class="btn-secundario">Ver proyecto</a>
+          </article>
+          <article class="proyecto-card">
+            <h3>Proyecto 3</h3>
+            <p>Aplicación desarrollada con React, manejo de estado y React Router.</p>
+            <a href="#" class="btn-secundario">Ver proyecto</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Sección contacto -->
+      <section id="contacto" class="seccion seccion-gris">
+        <h2>Contacto</h2>
+        <form class="formulario">
+          <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Tu nombre completo" required />
+          </div>
+          <div class="campo">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" placeholder="tucorreo@ejemplo.com" required />
+          </div>
+          <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+          </div>
+          <button type="submit" class="btn">Enviar mensaje</button>
+        </form>
+      </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+      <p>© 2024 Guillermo Castro — Todos los derechos reservados</p>
+    </footer>
+
+  </body>
+</html>
